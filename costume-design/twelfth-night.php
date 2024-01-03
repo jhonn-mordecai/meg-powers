@@ -10,7 +10,7 @@
         <span class="project-title">Twelfth Night</span>
     </h1>
     <div class="project-details">
-        <p>Yale Shakespeare Repertory Project</p>
+        <p>Yale Shakespeare Repertory Project, Iseman Theatre, February 2022</p>
         <p>Director: James Fleming / Costume Design: Meg Powers / Set Design: Cat Raynor / Lighting Design: Yichen Zhou</p>
         <p>Photos: Marcelo Martinez Garcia and Leigh R. Busby</p>
     </div>

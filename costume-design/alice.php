@@ -10,6 +10,7 @@
         <span class="project-title">Alice</span>
     </h1>
     <div class="alice-details project-details">
+        <p>University Theatre, February 2020</p>
         <p>Concept by Robert Wilson / Directed by Logan Ellis</p>
         <p>Music and Lyrics by Tom Waits and Kathleen Brennan / Libretto by Paul Schmidt<br>
         Scenic Design by Anna Grigo / Lighting Design by Riva Fairhall / Projection Design by Brittany Bland</p>

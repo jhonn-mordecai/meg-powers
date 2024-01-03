@@ -140,12 +140,14 @@ main {
 }
 
 main p a,
+.index-list li a,
 .site-credit a {
     color:var(--link-red);
     transition:0.2s;
 }
 
 main p a:hover,
+.index-list li a:hover,
 .site-credit a:hover {
     background-color:var(--link-red);
     color:#fff;
@@ -158,8 +160,18 @@ h1 {
     font-size:2rem;
 }
 
+h2 {
+    font-weight:600;
+    margin-bottom:0.9rem;
+    font-size:1.6rem;
+}
+
 .intro p {
     margin-bottom:2rem;
+}
+
+ul.index-list {
+    margin-bottom:1.5rem;
 }
 
 footer {

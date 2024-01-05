@@ -11,7 +11,9 @@
     </h1>
     <div class="project-details">
         <p>Yale Shakespeare Repertory Project, Iseman Theatre, February 2022</p>
-        <p>Director: James Fleming / Costume Design: Meg Powers / Set Design: Cat Raynor / Lighting Design: Yichen Zhou</p>
+        <p>Director: <a href="https://www.jameslfleming.com/" title="James Fleming website" target="_blank">James Fleming</a> <br> 
+            Costume Design: Meg Powers / Set Design: Cat Raynor / Lighting Design: Yichen Zhou
+        </p>
         <p>Photos: Marcelo Martinez Garcia and Leigh R. Busby</p>
     </div>
   </section>

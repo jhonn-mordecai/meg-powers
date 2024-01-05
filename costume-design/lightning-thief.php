@@ -11,7 +11,12 @@
     </h1>
     <div class="project-details">
         <p>A TheaterWorksUSA Production</p>
-        <p>Book by Joe Tracz / Music, Lyrics, and Orchestrations by Rob Rokicki / Adapted from the book <i>The Lightning Thief</i> by Rick Riordan / Direction and Choreography by Josiah Davis / Costume Design by Meg Powers / Scenic &amp; Props Design by Jean Kim / Music Direction by Adam J. Rineer</p>
+        <p>Book by Joe Tracz <br>
+          Music, Lyrics, and Orchestrations by Rob Rokicki <br> 
+          Adapted from the book <i>The Lightning Thief</i> by Rick Riordan <br> 
+          Direction and Choreography by Josiah Davis <br> 
+          Costume Design by Meg Powers / Scenic Design by Jean Kim / Music Direction by Adam J. Rineer
+        </p>
 
         <div class="embed-responsive">
           <iframe height="400" src="https://www.youtube.com/embed/OnwGxFl9jq8?si=Moz-A6E40pWqUgw2" title="The Lightning Thief TYA Edition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style="width:100%;" allowfullscreen></iframe>

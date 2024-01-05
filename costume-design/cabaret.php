@@ -11,7 +11,10 @@
     </h1>
     <div class="project-details">
         <p>Yale Dramatic Association, October 2021</p>
-        <p>Director: <a href="https://collegearts.yale.edu/biography/lynda-paul" title="Lynda Paul profile" target="_blank">Lynda Paul</a> / Costume Design: Meg Powers / Set Design: Jimmy Stubbs / Lighting Design: Eitan Acks</p>
+        <p>
+          Director: <a href="https://collegearts.yale.edu/biography/lynda-paul" title="Lynda Paul profile" target="_blank">Lynda Paul</a> <br> 
+          Costume Design: Meg Powers / Scenic Design: Jimmy Stubbs / Lighting Design: Eitan Acks / Music Direction: Mitchell Dubin
+        </p>
     </div>
   </section>
   <div class="project-gallery">

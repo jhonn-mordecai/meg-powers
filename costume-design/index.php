@@ -13,6 +13,7 @@
     <ul class="index-list">
       <li><a href="<?= $BASE_URL; ?>/costume-design/alice" title="Alice production photos">Alice</a></li>
       <li><a href="<?= $BASE_URL; ?>/costume-design/cabaret" title="Cabaret production photos">Cabaret</a></li>
+      <li><a href="<?= $BASE_URL; ?>/costume-design/lightning-thief" title="The Lightning Thief production photos">The Lightning Thief</a></li>
       <li><a href="<?= $BASE_URL; ?>/costume-design/twelfth-night" title="Twelfth Night production photos">Twelfth Night</a></li>
     </ul>
     <h2>Theoretical Concepts</h2>

@@ -53,6 +53,7 @@
                             <li class="dropdown-item dropdown-head">Productions</li>
                             <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/alice">Alice</a></li>
                             <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/cabaret">Cabaret</a></li>
+                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/lightning-thief">The Lightning Thief</a></li>
                             <!-- <li><a class="dropdown-item" href="#">Constellations</a></li>
                             <li><a class="dropdown-item" href="#">Gods of the Mountains</a></li> -->
                             <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/twelfth-night">Twelfth Night</a></li>

@@ -51,20 +51,19 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                             <li class="dropdown-item dropdown-head">Productions</li>
-                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/alice">Alice</a></li>
-                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/cabaret">Cabaret</a></li>
-                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/lightning-thief">The Lightning Thief</a></li>
+                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/alice" title="Alice production photos">Alice</a></li>
+                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/cabaret" title="Cabaret production photos">Cabaret</a></li>
+                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/lightning-thief" title="The Lightning Thief production photos">The Lightning Thief</a></li>
                             <!-- <li><a class="dropdown-item" href="#">Constellations</a></li>
                             <li><a class="dropdown-item" href="#">Gods of the Mountains</a></li> -->
-                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/twelfth-night">Twelfth Night</a></li>
+                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/twelfth-night" title="Twelfth Night production photos">Twelfth Night</a></li>
                             <!-- <li><hr class="dropdown-divider"></li> -->
                             <li class="dropdown-item dropdown-head">Theoretical</li>
-                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/pinocchio">The Adventures of Pinocchio</a></li>
-                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/airline-highway">Airline Highway</a></li>
-                            <!--  <li><a class="dropdown-item" href="#">The Amazing Adventures of Kavalier and Clay</a></li> -->
-                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/one-flea-spare">One Flea Spare</a></li>
-                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/peer-gynt">Peer Gynt</a></li>
-                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/sun-is-sinking-in-the-west">The Sun is Sinking in the West</a></li>
+                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/pinocchio" title="The Adventures of Pinocchio sketches">The Adventures of Pinocchio</a></li>
+                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/airline-highway" title="Airline Highway sketches">Airline Highway</a></li>
+                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/one-flea-spare" title="One Flea Spare sketches">One Flea Spare</a></li>
+                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/peer-gynt" title="Peer Gynt sketches">Peer Gynt</a></li>
+                            <li><a class="dropdown-item" href="<?= $BASE_URL; ?>/costume-design/sun-is-sinking-in-the-west" title="The Sun is Sinking in the West sketches">The Sun is Sinking in the West</a></li>
                         </ul>
                     </li>
                     <li>
@@ -77,6 +76,12 @@
                         <a href="<?= $BASE_URL; ?>/craftwork" class="nav-link" title="Craftwork">
                             <span class="sr-only">Craftwork</span>
                             <span class="icon-craftwork"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://eyeballjellomold.bigcartel.com/" class="nav-link" title="Go Eyeball Jello Mold shop" target="_blank">
+                            <span class="sr-only">Shop</span>
+                            <span class="icon-shop"></span>
                         </a>
                     </li>
                 </ul>

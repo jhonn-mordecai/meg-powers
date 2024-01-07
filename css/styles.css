@@ -321,7 +321,6 @@ section.about h1 {
 .project-gallery {
     display:grid;
     gap:1.5rem;
-    grid-template-columns:repeat(auto-fit, minmax(min(17.5rem, 100%), 1fr));
     margin-bottom:3rem;
 }
 
@@ -476,5 +475,19 @@ div#pinocchio-model {
     }
     .section-tabs a {
         flex-basis:100%;
+    }
+}
+
+@media screen and (min-width: 626px) {
+    /* Project Page Gallery */
+    .project-gallery {
+        grid-template-columns:repeat(auto-fit, minmax(min(17.5rem, 100%), 1fr));
+    }
+}
+
+@media screen and (max-width: 625px) {
+    /* Project Page Gallery */
+    .project-gallery {
+        grid-template-columns:repeat(auto-fit, minmax(min(13.5rem, 100%), 1fr));
     }
 }

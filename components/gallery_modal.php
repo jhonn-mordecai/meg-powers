@@ -7,8 +7,8 @@
       </div>
       <div class="modal-body">
         <img id="modal_img" alt="">
-        <!-- <p class="photo-credit"><span class="bold">Photo:</span> <span class="credit-name"></span></p>
-        <p class="caption-info"></p> -->
+        <p class="modal-caption-info"></p>
+        <p class="link-url"></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn close-modal" data-bs-dismiss="modal">Close</button>

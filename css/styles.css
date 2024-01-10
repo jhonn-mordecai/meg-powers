@@ -347,17 +347,36 @@ section.about h1 {
 .gallery-thumbnail img.object-top-align {
     object-position:top;
 }
+.gallery-thumbnail img.object-bottom-align {
+    object-position:bottom;
+}
 
 .gallery-thumbnail img:hover {
     opacity:0.6;
     transition:0.2s;
 }
 
+.gallery-thumbnail.illustration-thumbnail img {aspect-ratio: 8 / 10;}
+
 /* Gallery Modal */
 
-.modal-body {display:flex;}
+.modal-body {display:flex;flex-direction: column;}
+
+.modal-body {
+    font-size:1rem;
+    text-align:center;
+}
+
+.modal-body .modal-caption-info:empty,
+.modal-body p.link-url:empty,
+.modal-body p:last-child {
+    margin-bottom:0;
+}
+
+
 
 #modal_img {
+    display:block;
     margin-bottom:1rem;
     margin-inline:auto;
 }

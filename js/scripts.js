@@ -16,6 +16,7 @@ $(function() {
     // Gallery Modal
     let galleryModal = $('#galleryModal');
     let modalImg = $('#modal_img');
+    let modalCaption = $('.modal-caption-info');
 
     $('.gallery-thumbnail').on('click', function(e){
         e.preventDefault();
@@ -24,24 +25,28 @@ $(function() {
 
         let imgSrc = img.attr('src');
         let altText = img.attr('alt');
-        // let credit = img.data('credit');
-        // let info = img.data('info');
+        let caption = img.data('info');
+        let refLink = $(this).next('.ref-link');
 
         modalImg.attr('src', imgSrc);
         modalImg.attr('alt', altText);
-        // $('.photo-credit').find('.credit-name').text(credit);
-        // $('.caption-info').text(info);
+        modalCaption.text(caption);
+
+        if (refLink.length) {
+            let linkUrl = refLink.html();
+            $('.link-url').html(`
+                <a href="${linkUrl}" title="Open in new window" target="_blank">${linkUrl}</a>
+            `);
+        }
 
         galleryModal.modal('show');
     });
 
-    $('#galleryModal .close-modal').on('click', function(){
-        if ( !galleryModal.hasClass('show') ) {
-            modalImg.attr('src', '');
-            modalImg.attr('alt', '');
-            // $('.photo-credit').find('.credit-name').text('');
-            // $('.caption-info').text('');
-        }
+    $(galleryModal).on('hidden.bs.modal', function(){
+        modalImg.attr('src', '');
+        modalImg.attr('alt', '');
+        modalCaption.text('');
+        $('.link-url').html('');
     });
 
 

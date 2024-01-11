@@ -8,10 +8,9 @@
         <span class="sr-only">Illustration</span>
         <span class="icon-illustration"></span>
     </h1>
-    <!-- <p>Coming soon!</p>
     <p>
-      <a href="<?= $BASE_URL; ?>" title="Home">Go Home</a>
-    </p> -->
+      Click each thumbnail to view full-size + more info.
+    </p>
   </section>
   <div class="project-gallery">
 

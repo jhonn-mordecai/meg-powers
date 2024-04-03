@@ -15,6 +15,12 @@
         <p>Music and Lyrics by Tom Waits and Kathleen Brennan / Libretto by Paul Schmidt<br>
         Costume Design by Meg Powers / Scenic Design by Anna Grigo / Lighting Design by Riva Fairhall / Projection Design by Brittany Bland / Music Direction by Dan Pardo</p>
         <p>Photos by T. Charles Erickson</p>
+
+        <h2>Press</h2>
+        <ul class="list-unstyled">
+          <li><span class="italic"><a href="https://yaledailynews.com/blog/2020/02/07/watch-her-disappear-a-review-of-alice-at-the-yale-school-of-drama/" title="" target="_blank">Watch Her Disappear</a></span> - Yale Daily News</li>
+          <li><span class="italic"><a href="https://www.newhavenreview.com/blog/tag/Tom+Waits" title="" target="_blank">Call Me Up In Dreamland</a></span> - New Haven Review</li>
+        </ul>
     </div>
   </section>
   <div class="alice-tabs section-tabs">

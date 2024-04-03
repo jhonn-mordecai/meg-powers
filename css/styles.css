@@ -58,6 +58,14 @@ span.bold {
     font-style:italic;
 }
 
+ul.list-unstyled {
+    padding-left:0;
+    list-style-type: none;
+}
+ul.list-unstyled li {
+    margin-bottom:0.5rem;
+}
+
 section.logo {
     padding:2.5rem 1.2rem;
     text-align:center;
@@ -141,6 +149,7 @@ main {
 
 main p a,
 .index-list li a,
+.list-unstyled a,
 .site-credit a {
     color:var(--link-red);
     transition:0.2s;
@@ -148,6 +157,7 @@ main p a,
 
 main p a:hover,
 .index-list li a:hover,
+.list-unstyled a:hover,
 .site-credit a:hover {
     background-color:var(--link-red);
     color:#fff;

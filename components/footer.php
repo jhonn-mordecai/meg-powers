@@ -5,7 +5,7 @@
                 <span class="sr-only">About</span>
                 <span class="icon-about"></span>
             </a>
-            <a href="<?= $BASE_URL; ?>/meg-powers-resume2022.pdf" title="See my resumé" target="_blank">
+            <a href="<?= $BASE_URL; ?>/meg-powers-resume-2024.pdf" title="See my resumé" target="_blank">
                 <span class="sr-only">Resume</span>
                 <span class="icon-resume"></span>
             </a>

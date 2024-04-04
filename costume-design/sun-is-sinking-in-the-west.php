@@ -12,7 +12,7 @@
     <div class="project-details">
         <p>Playwright: Steven Glavey</p>
         <p>THE SUN IS SINKING IN THE WEST is a new play written by a longtime  collaborator, Steven Glavey. As much an intimate family drama as a horror story, this play explores the grim complicities of the Westward Expansion through vampire folklore and takes inspiration from Aleksey Tolstoy, spaghetti westerns, and giallo.</p>
-        <!-- <p>This was a rare and fulfilling opportunity to develop the costumes in direct conversation with the playwright, and we are both very happy with the results. To see a fully realized build of Lilybell Glanton's Look 3 dress, <a href="" title="View photos of Lilybell Glanton's Look 3 dress">click here</a>.</p> -->
+        <p>This was a rare and fulfilling opportunity to develop the costumes in direct conversation with the playwright, and we are both very happy with the results. It was also yet another exciting opportunity to collaborate with the Yale costume shop! To see a fully realized build of Lilybell Glanton's Look 3 dress, built by Clarissa Wylie Youngberg and Pat Van Horn, <a href="#lilybell-dress" title="Go to dress gallery">click here</a>.</p>
     </div>
   </section>
   <div class="project-gallery">
@@ -20,6 +20,15 @@
     <?php foreach ($cd_sun_sinking as $data => $item): ?>
         <a href="" class="gallery-thumbnail" aria-expanded="false" role="button">
             <img src="<?= $item['img'] ?>" alt="<?= $item['alt'] ?>" class="object-top-align">
+        </a>
+    <?php endforeach; ?>
+  </div>
+
+  <h2 id="lilybell-dress">Lilybell Glanton's Look 3 Dress</h2>
+  <div class="project-gallery">
+    <?php foreach ($cd_lilybell_dress as $data => $item): ?>
+        <a href="" class="gallery-thumbnail" aria-expanded="false" role="button">
+            <img src="<?= $item['img'] ?>" alt="<?= $item['alt'] ?>" class="">
         </a>
     <?php endforeach; ?>
   </div>

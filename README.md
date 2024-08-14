@@ -1,2 +1,2 @@
-# meg-powers
-Meg Powers costume design portfolio
+# Meg Powers Design
+Costume design and illustration artist portfolio. Client wanted something custom that could be easily edited as needed and turned around quickly; so some minimal Bootstrap was used for some elements, while data for the dynamically-generated gallery pages uses simple PHP arrays rather than a database. Grids and layouts utilize CSS grid and flexbox, while logo and navigation graphics utilize custom font icons.

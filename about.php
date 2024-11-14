@@ -15,8 +15,6 @@
             </picture>
         </div>
         <div class="about-description">
-
-        <span class="italic"></span>
             
             <div class="write-up">
                 <p>Meg Powers is a costume designer and inter-disciplinary artist whose practice includes filmmaking, puppetry, and sequential art. Their philosophy is driven by the humanity of performers, an empathetic approach to character analysis that emphasizes nuance, an exploration of history through subculture, and the desire to empower audiences across a broad spectrum of experience through catharsis, fun, and fantasy.</p>
@@ -31,9 +29,12 @@
             </div>
 
             <div class="about-contact-links">
-                <p><a href="mailto:meghpowers@gmail.com" title="Email">Email</a>.</p>
+                <ul class="list-unstyled">
+                    <li><a href="mailto:meghpowers@gmail.com" title="Email">Email</a></li>
+                    <li><a href="<?= $BASE_URL; ?>/meg-powers-resume-2024.pdf" title="Resume" target="_blank">Resum&eacute;</a></li>
+                </ul>
+                
                 <p>
-                    <a href="<?= $BASE_URL; ?>/meg-powers-resume-2024.pdf" title="Resume" target="_blank">Resum&eacute;</a> <br>
                     <small style="font-size:0.85rem;"><i>Please contact for a complete list of design credits prior to 2020.</i></small>
                 </p>
             </div>
